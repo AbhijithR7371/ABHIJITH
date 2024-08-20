@@ -1,0 +1,63 @@
+
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0;
+}
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+.heading h2 {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.heading p {
+    font-size: 1.25rem;
+    color: #455b5f;
+}
+
+
+button {
+    font-size: 1.25rem;
+    padding: 10px 20px;
+    margin: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+}
+
+button#stone {
+    background-color: #4caf50;
+    color: #fff;
+}
+
+button#stone:hover {
+    background-color: #388e3c;
+}
+
+button#paper {
+    background-color: #211992;
+    color: #fff;
+}
+
+button#paper:hover {
+    background-color: #447aca;
+}
+
+button#scissors {
+    background-color: #f44336;
+    color: #fff;
+}
+button#scissors:hover {
+    background-color: #af271e;
+    color: #fff;
+}
